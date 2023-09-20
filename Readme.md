@@ -3,18 +3,19 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3750)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms TreeList - Asynchronous node loading
+
+This example demonstrates how to load node data on a background thread. The example uses an approach similar to [Master-Detail - How to load detail view data asynchronously](https://supportcenter.devexpress.com/ticket/details/e2745/winforms-data-grid-asynchronous-detail-view-loading).
+
+
+## Files to Review
 
 * [ExampleMainForm.cs](./CS/ExampleMainForm.cs) (VB: [ExampleMainForm.vb](./VB/ExampleMainForm.vb))
-<!-- default file list end -->
-# How to dynamically fill tree list content in the background thread
 
 
-<p>This example demonstrates how to dynamically fill the tree list content in the background thread.</p><p><br />
-In this example we used an approach similar to the one shown in the <a href="https://www.devexpress.com/Support/Center/p/E2745">Master-Detail - How to load detail view data asynchronously</a> example. This solution is oriented to a TreeList control.</p><br />
-<p>In this example children nodes are created within different background threads.</p>
+## Documentation
 
-<br/>
-
-
+* [Virtual Mode (Dynamic Data Loading) Using Events (Tree List Level)](https://docs.devexpress.com/WindowsForms/5560/controls-and-libraries/tree-list/feature-center/data-binding/virtual-mode-dynamic-data-loading-using-events-tree-list-level)
+* [TreeList.VirtualTreeGetChildNodes Event](https://docs.devexpress.com/WindowsForms/DevExpress.XtraTreeList.TreeList.VirtualTreeGetChildNodes)
+* [TreeList.VirtualTreeSetCellValue Event](https://docs.devexpress.com/WindowsForms/DevExpress.XtraTreeList.TreeList.VirtualTreeSetCellValue)
